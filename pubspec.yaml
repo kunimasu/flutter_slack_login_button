@@ -1,8 +1,11 @@
 name: slack_login_button
-description: Slack login button
+description: This Flutter plugin is Widget for Slack login.
+
+  You can provide Slack login feature by set it to your parent Widget simply.
+  As result, you will get access_token from callback you specified.
+
 version: 0.0.1
-author: kunimasu
-homepage:
+homepage: https://github.com/kunimasu/flutter_slack_login_button
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
