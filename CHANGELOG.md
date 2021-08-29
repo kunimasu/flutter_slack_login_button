@@ -1,3 +1,7 @@
+## 0.0.2
+
+Changed shorter for description.
+
 ## 0.0.1
 
 First release. This Slack login button widget has be implemented most basic parts as below:
