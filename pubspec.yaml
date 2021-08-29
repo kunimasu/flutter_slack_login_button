@@ -1,0 +1,36 @@
+name: slack_login_button
+description: Slack login button
+version: 0.0.1
+author: kunimasu
+homepage:
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  flutter_webview_plugin: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  assets:
+    - assets/images/slack_logo.png
+
+  plugin:
+    platforms:
+      android:
+        package: com.kunimasu.slack_login_button
+        pluginClass: SlackLoginButtonPlugin
+      ios:
+        pluginClass: SlackLoginButtonPlugin
+      macos:
+        pluginClass: SlackLoginButtonPlugin
+      windows:
+        pluginClass: SlackLoginButtonPlugin
